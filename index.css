@@ -1,0 +1,13 @@
+
+body {
+  background-color: #FF5733;
+}
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 90px;
+  color: white;
+  margin-left: 24%;
+  top: 30%;
+  position: fixed;
+}
