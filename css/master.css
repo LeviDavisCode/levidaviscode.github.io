@@ -1,0 +1,32 @@
+body {
+  background-color: #2E2A4F;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.top-text {
+  font-family: 'Pacifico', cursive;
+  font-size: 55px;
+  margin-left: 4%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .top-text {
+    font-size: 100px;
+  }
+}
+
+.top-back {
+  font-size: 35px;
+  position: absolute;
+  top: 10%;
+  left: 87%;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+}
+
+.top-back:hover {
+  font-size: 45px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+}
